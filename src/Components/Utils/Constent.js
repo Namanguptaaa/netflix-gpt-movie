@@ -25,4 +25,4 @@ export const SUPPORTED_LANGUAGES = [
 ];
 
 export const OPENAI = process.env.REACT_APP_OPENAI_KEY;
-export const GROQAI = process.env.GROQ_API_KEY;
+export const GROQAI = process.env.REACT_APP_GROQ_API_KEY;
