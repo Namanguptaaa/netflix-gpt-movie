@@ -24,4 +24,5 @@ export const SUPPORTED_LANGUAGES = [
   {identifier: "japanies", name: "japanies"}
 ];
 
-export const OPENAI = process.env.REACT_APP_OPENAI_KEY;;
+export const OPENAI = process.env.REACT_APP_OPENAI_KEY;
+export const GROQAI = process.env.GROQ_API_KEY;

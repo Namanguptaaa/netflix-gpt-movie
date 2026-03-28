@@ -6,17 +6,19 @@ import { Background_URL } from './Utils/Constent';
 const GptSearch = () => {
   return (
     
+    <>
     
-    <div>
       <div className="absolute -z-10 ">
-       <img
+       <img className='object-cover'
           src={Background_URL}
           alt="background"
       />
       </div>
+      <div className='pt-[25%] md:p-0'>
       <GptSearchBar />
       <GptMovieSuggestions />
     </div>
+    </>
   )
 };
 
